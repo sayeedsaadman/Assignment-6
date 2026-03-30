@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Plan",
+    "description": "Perfect for individuals looking to build their first professional presence.",
+    "price": 0,
+    "period": "one-time",
+    "tag": "Free Forever",
+    "tagType": "new",
+    "features": [
+      "5 basic templates",
+      "Standard web editor",
+      "Community support",
+      "Export to PNG"
+    ],
+    "icon": "rocket"
+  },
+  {
+    "id": 2,
+    "name": "Professional Tier",
+    "description": "Comprehensive tools for freelancers and job seekers.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ premium templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Priority email support"
+    ],
+    "icon": "briefcase"
+  },
+  {
+    "id": 3,
+    "name": "Executive Annual",
+    "description": "Advanced features for long-term career management and branding.",
+    "price": 99.00,
+    "period": "yearly",
+    "tag": "Best Value",
+    "tagType": "best seller",
+    "features": [
+      "Unlimited AI revisions",
+      "Custom domain hosting",
+      "Personal branding kit",
+      "LinkedIn profile sync"
+    ],
+    "icon": "shield-star"
+  },
+  {
+    "id": 4,
+    "name": "Design Pro",
+    "description": "High-fidelity design assets for creative professionals.",
+    "price": 25.00,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Vector export options",
+      "Custom color palettes",
+      "Font library access",
+      "Collaborative workspaces"
+    ],
+    "icon": "palette"
+  },
+  {
+    "id": 5,
+    "name": "Data Analyst Bundle",
+    "description": "Specialized reporting tools for data-driven storytelling.",
+    "price": 45.00,
+    "period": "one-time",
+    "tag": "Top Rated",
+    "tagType": "best seller",
+    "features": [
+      "Interactive chart widgets",
+      "CSV/JSON data import",
+      "Custom API endpoints",
+      "White-label reports"
+    ],
+    "icon": "bar-chart"
+  },
+  {
+    "id": 6,
+    "name": "Team Essentials",
+    "description": "Collaboration features for small teams up to 5 members.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "Team Pick",
+    "tagType": "popular",
+    "features": [
+      "Shared asset library",
+      "Admin dashboard",
+      "Role-based permissions",
+      "Slack integration"
+    ],
+    "icon": "users"
+  },
+  {
+    "id": 7,
+    "name": "Enterprise Suite",
+    "description": "Full-scale solution for large organizations and HR firms.",
+    "price": 899.00,
+    "period": "yearly",
+    "tag": "Enterprise",
+    "tagType": "new",
+    "features": [
+      "SAML/SSO authentication",
+      "Dedicated account manager",
+      "Custom legal terms",
+      "Bulk user provisioning"
+    ],
+    "icon": "building"
+  },
+  {
+    "id": 8,
+    "name": "Quick-Start Pack",
+    "description": "Everything you need to get moving in under 10 minutes.",
+    "price": 15.00,
+    "period": "one-time",
+    "tag": "Hot",
+    "tagType": "popular",
+    "features": [
+      "Ready-to-use copy",
+      "Auto-fill technology",
+      "Mobile-friendly layouts",
+      "Instant download"
+    ],
+    "icon": "zap"
+  },
+  {
+    "id": 9,
+    "name": "The Architect Plan",
+    "description": "For those who need complex structural and layout control.",
+    "price": 199.00,
+    "period": "yearly",
+    "tag": "Expert",
+    "tagType": "best seller",
+    "features": [
+      "Advanced CSS control",
+      "A/B testing tools",
+      "Heatmap analytics",
+      "Multi-language support"
+    ],
+    "icon": "layers"
+  }
+]
