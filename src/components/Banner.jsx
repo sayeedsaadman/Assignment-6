@@ -1,5 +1,5 @@
 import BannerImage from "../assets/banner.png";
-
+import DotImage from "../assets/Dot.png"
 const Banner = () => {
     return (
         <div className="relative min-h-162.5 flex items-center overflow-hidden">
@@ -7,6 +7,7 @@ const Banner = () => {
                 {/* Left Content */}
                 <div className="space-y-4">
                     <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 text-blue-400 text-sm font-medium px-5 py-2 rounded-full">
+  <img src={DotImage} alt="" />
   New: AI-Powered Tools Available
 </div>
 
