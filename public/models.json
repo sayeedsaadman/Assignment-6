@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Starter Plan",
-    "description": "Perfect for individuals looking to build their first professional presence.",
+    "name": "AI Resume Builder Agent",
+    "description": "Generates professional resumes using smart templates and AI suggestions.",
     "price": 0,
     "period": "one-time",
     "tag": "Free Forever",
@@ -13,12 +13,12 @@
       "Community support",
       "Export to PNG"
     ],
-    "icon": "rocket"
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
   },
   {
     "id": 2,
-    "name": "Professional Tier",
-    "description": "Comprehensive tools for freelancers and job seekers.",
+    "name": "ATS Optimization Agent",
+    "description": "Enhances resumes to pass Applicant Tracking Systems with higher success.",
     "price": 12.99,
     "period": "monthly",
     "tag": "Popular",
@@ -29,13 +29,13 @@
       "Export to PDF",
       "Priority email support"
     ],
-    "icon": "briefcase"
+    "image": "https://cdn-icons-png.flaticon.com/512/9068/9068671.png"
   },
   {
     "id": 3,
-    "name": "Executive Annual",
-    "description": "Advanced features for long-term career management and branding.",
-    "price": 99.00,
+    "name": "Personal Branding AI Agent",
+    "description": "Builds and manages your professional identity across platforms.",
+    "price": 99.0,
     "period": "yearly",
     "tag": "Best Value",
     "tagType": "best seller",
@@ -45,13 +45,13 @@
       "Personal branding kit",
       "LinkedIn profile sync"
     ],
-    "icon": "shield-star"
+    "image": "https://cdn-icons-png.flaticon.com/512/4149/4149643.png"
   },
   {
     "id": 4,
-    "name": "Design Pro",
-    "description": "High-fidelity design assets for creative professionals.",
-    "price": 25.00,
+    "name": "Creative Design AI Agent",
+    "description": "Provides advanced design capabilities for high-quality visuals.",
+    "price": 25.0,
     "period": "monthly",
     "tag": "New",
     "tagType": "new",
@@ -61,13 +61,13 @@
       "Font library access",
       "Collaborative workspaces"
     ],
-    "icon": "palette"
+    "image": "https://cdn-icons-png.flaticon.com/512/1821/1821897.png"
   },
   {
     "id": 5,
-    "name": "Data Analyst Bundle",
-    "description": "Specialized reporting tools for data-driven storytelling.",
-    "price": 45.00,
+    "name": "Data Storytelling Agent",
+    "description": "Transforms raw data into interactive and insightful visual reports.",
+    "price": 45.0,
     "period": "one-time",
     "tag": "Top Rated",
     "tagType": "best seller",
@@ -77,12 +77,12 @@
       "Custom API endpoints",
       "White-label reports"
     ],
-    "icon": "bar-chart"
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920349.png"
   },
   {
     "id": 6,
-    "name": "Team Essentials",
-    "description": "Collaboration features for small teams up to 5 members.",
+    "name": "Team Collaboration Agent",
+    "description": "Streamlines workflows and communication for small teams.",
     "price": 49.99,
     "period": "monthly",
     "tag": "Team Pick",
@@ -93,13 +93,13 @@
       "Role-based permissions",
       "Slack integration"
     ],
-    "icon": "users"
+    "image": "https://cdn-icons-png.flaticon.com/512/921/921347.png"
   },
   {
     "id": 7,
-    "name": "Enterprise Suite",
-    "description": "Full-scale solution for large organizations and HR firms.",
-    "price": 899.00,
+    "name": "Enterprise HR Automation Agent",
+    "description": "Handles large-scale recruitment and organizational workflows.",
+    "price": 899.0,
     "period": "yearly",
     "tag": "Enterprise",
     "tagType": "new",
@@ -109,13 +109,13 @@
       "Custom legal terms",
       "Bulk user provisioning"
     ],
-    "icon": "building"
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135679.png"
   },
   {
     "id": 8,
-    "name": "Quick-Start Pack",
-    "description": "Everything you need to get moving in under 10 minutes.",
-    "price": 15.00,
+    "name": "Quick Resume Generator Agent",
+    "description": "Creates ready-to-use resumes instantly with AI autofill.",
+    "price": 15.0,
     "period": "one-time",
     "tag": "Hot",
     "tagType": "popular",
@@ -125,13 +125,13 @@
       "Mobile-friendly layouts",
       "Instant download"
     ],
-    "icon": "zap"
+    "image": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
   },
   {
     "id": 9,
-    "name": "The Architect Plan",
-    "description": "For those who need complex structural and layout control.",
-    "price": 199.00,
+    "name": "Advanced Layout Architect Agent",
+    "description": "Offers full control over layout, testing, and multilingual design.",
+    "price": 199.0,
     "period": "yearly",
     "tag": "Expert",
     "tagType": "best seller",
@@ -141,6 +141,6 @@
       "Heatmap analytics",
       "Multi-language support"
     ],
-    "icon": "layers"
+    "image": "https://cdn-icons-png.flaticon.com/512/1821/1821533.png"
   }
 ]
