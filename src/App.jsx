@@ -7,6 +7,7 @@ import NavBar from "./components/NavBar";
 import { ToastContainer } from 'react-toastify';
 import UserBanner from "./components/UserBanner";
 import 'react-toastify/dist/ReactToastify.css'; 
+import PricingSection from "./components/PricingSection";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -64,7 +65,7 @@ function App() {
           />
         )}
       </main>
-
+        <PricingSection/>
       <Footer />
       <ToastContainer position="bottom-right" />
     </>
