@@ -1,16 +1,48 @@
-# React + Vite
+# Digital Workflow & AI Agent Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive React web application that serves as a marketplace for premium AI tools, design assets, templates, and productivity software. Users can explore various AI agents (like Resume Builders, Data Storytelling, and HR Automation), select pricing plans, and add them to their cart seamlessly.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Dynamic Product Listing:** Browse through a variety of AI models and agents loaded dynamically from a JSON integration.
+- **Cart System:** Interactive and responsive Cart system to keep track of selected AI tools and models.
+- **Modern UI/UX:** Built with a glassmorphism and modern gradient design philosophy for a highly aesthetic, premium look.
+- **Toasts Notifications:** Beautiful alert and notification system integrated via `react-toastify` to provide immediate feedback to users during actions (e.g., adding to cart).
+- **Interactive UI Components:** Includes tab navigations, custom banners, pricing sections, and stepped guides for quick adoption.
 
-## React Compiler
+## 💻 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React 19 + Vite
+- **Styling:** Tailwind CSS 4, custom Vanilla CSS, and daisyUI for rapid, beautiful UI components.
+- **Icons & Assets:** FontAwesome and Flaticon icons.
+- **Notifications:** React Toastify
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+├── public/                 # Static assets like models.json
+├── src/                    
+│   ├── assets/             # Images and visual assets
+│   ├── components/         # Reusable React components (Banner, Cart, Models, NavBar, etc.)
+│   ├── App.jsx             # Main application component & layout 
+│   ├── main.jsx            # Application entry point
+│   ├── index.css           # Global stylesheet and Tailwind directives
+├── package.json            # Dependencies and scripts
+├── vite.config.js          # Vite configuration
+└── README.md               # Project documentation
+```
+
+
+## 🔨 Building for Production
+
+To create a production-ready build, run:
+```bash
+npm run build
+```
+This command bundles your app into static files in the `dist/` directory, which can be easily deployed to hosting platforms like Vercel, Netlify, or GitHub Pages.
+
+## 📝 Scripts
+
+- `npm run dev`: Starts the Vite development server.
+- `npm run build`: Builds the app for production.
