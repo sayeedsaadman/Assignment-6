@@ -34,7 +34,6 @@ const PricingSection = () => {
           </button>
         </div>
 
-        {/* Pro */}
         <div className="relative bg-linear-to-br from-violet-600 via-fuchsia-700 to-purple-600 text-white rounded-2xl p-6 flex-1 shadow-lg">
           <div className="absolute -top-3 inset-x-0 flex justify-center">
   <div className="bg-yellow-300 text-amber-700 text-xs px-3 py-1 rounded-full">
@@ -64,7 +63,6 @@ const PricingSection = () => {
           </button>
         </div>
 
-        {/* Enterprise */}
         <div className="bg-[#f6f6f8] border border-slate-200 rounded-2xl p-6 flex-1 shadow-sm">
           <h2 className="text-2xl font-bold">Enterprise</h2>
           <p className="text-sm text-slate-500 mt-2">For teams and businesses</p>

@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify';
 import UserBanner from "./components/UserBanner";
 import 'react-toastify/dist/ReactToastify.css'; 
 import PricingSection from "./components/PricingSection";
+import StepSection from "./components/StepSection";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -65,7 +66,8 @@ function App() {
           />
         )}
       </main>
-        <PricingSection/>
+      <PricingSection/>
+      <StepSection></StepSection>
       <Footer />
       <ToastContainer position="bottom-right" />
     </>
